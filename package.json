@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "site",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,8 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.11.5",
     "@astrojs/check": "^0.8.1",
+    "@zokki/astro-minify": "^1.0.5",
+    "astro": "^4.11.5",
+    "astro-compressor": "^0.4.1",
     "typescript": "^5.5.3"
   }
 }
