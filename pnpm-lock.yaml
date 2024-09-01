@@ -11,9 +11,6 @@ importers:
       '@astrojs/check':
         specifier: ^0.8.1
         version: 0.8.1(typescript@5.5.3)
-      '@zokki/astro-gzip':
-        specifier: ^1.0.3
-        version: 1.0.3(astro@4.11.5(lightningcss@1.26.0)(typescript@5.5.3))(glob@10.4.5)
       '@zokki/astro-minify':
         specifier: ^1.0.5
         version: 1.0.5(astro@4.11.5(lightningcss@1.26.0)(typescript@5.5.3))
@@ -662,12 +659,6 @@ packages:
 
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
-
-  '@zokki/astro-gzip@1.0.3':
-    resolution: {integrity: sha512-apgTgk4KeBwwN5Jyh61XtYfwyCHyWXDQaTkST0PSVi12cgzIf6OH4+Zawg/UNBZIp07CGXRV7TGTS9BHjQYUKQ==}
-    peerDependencies:
-      astro: '*'
-      glob: '>= 10'
 
   '@zokki/astro-minify@1.0.5':
     resolution: {integrity: sha512-RCjzRRDmu/D/PjHjp59v3wn5/Fo3YBFwsgvPIk21cMlKl3DCr1khoyV/xcQieLlQwi68bYQd1CIkJZ61tXDUzw==}
@@ -2685,12 +2676,6 @@ snapshots:
       vscode-uri: 2.1.2
 
   '@vscode/l10n@0.0.18': {}
-
-  '@zokki/astro-gzip@1.0.3(astro@4.11.5(lightningcss@1.26.0)(typescript@5.5.3))(glob@10.4.5)':
-    dependencies:
-      '@zokki/integration-utils': 1.1.0
-      astro: 4.11.5(lightningcss@1.26.0)(typescript@5.5.3)
-      glob: 10.4.5
 
   '@zokki/astro-minify@1.0.5(astro@4.11.5(lightningcss@1.26.0)(typescript@5.5.3))':
     dependencies:
